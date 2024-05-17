@@ -115,7 +115,7 @@ restaurants.displayRestaurants();
 restaurants.searchByCuisine("Indian");
 restaurants.searchByCuisine("Korean");
 
-// Displays all restaurants that serve the specified location
+// Displays all restaurants located in the specified location
 restaurants.searchByLocation("Los Angeles");
 restaurants.searchByLocation("Texas");
 
