@@ -30,6 +30,7 @@ Example:
 restaurants.addRestaurant("Taco Town", "Mexican", "Austin", 4.2);
 ```
 
+
 ### 'displayRestaurants()'
 
 This function displays all restaurants in the database.
