@@ -9,3 +9,7 @@ This Restaurant Manager module provides functionalities to manage restaurant dat
 ```
 const restaurantManager = require("./RestaurantManager.js");
 ```
+3. To run the module, open a new terminal and enter the following command:
+```
+node app.js
+```
