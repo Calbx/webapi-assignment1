@@ -20,9 +20,9 @@ node app.js
 
 This function allows the user to add a new restaurant to the database. The required parameters are:
 
-name: The name of the restaurant.
-cuisine: The type of cuisine the restaurant serves.
-location: The location of the restaurant.
-rating: The rating of the restaurant.
+- name: The name of the restaurant.
+- cuisine: The type of cuisine the restaurant serves.
+- location: The location of the restaurant.
+- rating: The rating of the restaurant.
 
 Example:
