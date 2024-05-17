@@ -30,7 +30,6 @@ Example:
 restaurants.addRestaurant("Taco Town", "Mexican", "Austin", 4.2);
 ```
 
-
 ### 'displayRestaurants()'
 
 This function displays all restaurants in the database.
@@ -98,4 +97,39 @@ This function takes in one parameter, name, allowing the user to delete a restau
 Example:
 ```
 restaurants.deleteRestaurant("Sushi Central");
+```
+
+## Example
+
+```
+const restaurants = require("./Calbert_Restaurants.js");
+
+// Adds restaurants to the database
+restaurants.addRestaurant("Taco Town", "Mexican", "Austin", 4.2);
+restaurants.addRestaurant("Burger Barn", "American", "Chicago", 4.3);
+
+// Displays all restaurants in the database
+restaurants.displayRestaurants();
+
+// Displays all restaurants that serve the specified cuisine
+restaurants.searchByCuisine("Indian");
+restaurants.searchByCuisine("Korean");
+
+// Displays all restaurants that serve the specified location
+restaurants.searchByLocation("Los Angeles");
+restaurants.searchByLocation("Texas");
+
+// Updates the specified restaurants rating
+restaurants.updateRating("Sushi Central", 3.7);
+restaurants.updateRating("Krusty Krab", 5.0);
+
+// Displays all restaurants with a rating >= 4.5
+restaurants.getTopRatedRestaurants();
+
+// Displays all restaurants within the specified rating range
+restaurants.getRestaurantsByRating(4.0, 4.5);
+
+// Deletes restaurants from the database
+restaurants.deleteRestaurant("Sushi Central");
+restaurants.deleteRestaurant("Krusty Krab");
 ```
