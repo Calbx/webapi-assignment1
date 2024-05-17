@@ -20,12 +20,81 @@ node app.js
 
 This function allows the user to add a new restaurant to the database. The required parameters are:
 
-- name: The name of the restaurant.
-- cuisine: The type of cuisine the restaurant serves.
-- location: The location of the restaurant.
-- rating: The rating of the restaurant.
+- `name`: The name of the restaurant.
+- `cuisine`: The type of cuisine the restaurant serves.
+- `location`: The location of the restaurant.
+- `rating`: The rating of the restaurant.
 
 Example:
 ```
 restaurants.addRestaurant("Taco Town", "Mexican", "Austin", 4.2);
+```
+
+### 'displayRestaurants()'
+
+This function displays all restaurants in the database.
+
+Example:
+```
+displayRestaurants();
+```
+
+### 'searchByCuisine(cuisine)'
+
+This function takes in one parameter, cuisine, allowing the user to search for restaurants serving a specific type of cuisine.
+
+Example:
+```
+restaurants.searchByCuisine("Indian");
+```
+
+### 'searchByLocation(location)'
+
+This function takes in one parameter, location, allowing the user to search for restaurants in a specific location.
+
+Example:
+```
+restaurants.searchByLocation("Los Angeles");
+```
+
+### 'updateRating(name, newRating)'
+
+This function takes in two parameters:
+
+- `name`: The name of the restaurant whose rating needs to be updated.
+- `newRating`: The new rating for the restaurant.
+
+Example:
+```
+restaurants.updateRating("Sushi Central", 3.7);
+```
+
+### 'getTopRatedRestaurants()'
+
+This function retrieves and displays all restaurants with a rating of 4.5 or higher.
+
+Example:
+```
+restaurants.getTopRatedRestaurants();
+```
+
+### 'getRestaurantsByRating(minRating, maxRating)'
+
+This function takes in two parameters:
+
+- `minRating`: The minimum rating of the restaurants to be retrieved.
+- `maxRating`: The maximum rating of the restaurants to be retrieved.
+
+Example:
+```
+restaurants.getRestaurantsByRating(4.0, 4.5);
+```
+
+### 'deleteRestaurant(name)'
+
+This function takes in one parameter, name, allowing the user to delete a restaurant by its name.
+
+Example:
+```
+restaurants.deleteRestaurant("Sushi Central");
 ```
