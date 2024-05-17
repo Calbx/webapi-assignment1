@@ -7,9 +7,11 @@ This Restaurant Manager module provides functionalities to manage restaurant dat
 1. Clone the repository to your local directory.
 2. Create a new file named app.js and insert the code below:
 ```
-const restaurantManager = require("./RestaurantManager.js");
+const restaurants = require("./Calbert_Restaurants.js");
 ```
 3. To run the module, open a new terminal and enter the following command:
 ```
 node app.js
 ```
+
+## How to Use the Functions
