@@ -6,5 +6,6 @@ This Restaurant Manager module provides functionalities to manage restaurant dat
 
 1. Clone the repository to your local directory.
 2. Create a new file named app.js and insert the code below:
-
-```const restaurantManager = require("./RestaurantManager.js");```
+```
+const restaurantManager = require("./RestaurantManager.js");
+```
