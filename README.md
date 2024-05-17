@@ -26,3 +26,6 @@ This function allows the user to add a new restaurant to the database. The requi
 - rating: The rating of the restaurant.
 
 Example:
+```
+restaurants.addRestaurant("Taco Town", "Mexican", "Austin", 4.2);
+```
